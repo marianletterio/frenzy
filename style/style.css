@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+}
+h1{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:300;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:300;
+}
+nav{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:300;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    text-decoration: none;
+    color: black;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
