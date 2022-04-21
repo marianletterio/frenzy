@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="../media/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Lexend+Deca:wght@100;200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -18,51 +18,47 @@
 <body>
     <header class="container-fluid bg-white">
         <div class="container text-center">
-           <a href="../index.html"> <img src="../media/logocb.png" class="img-fluid animate__animated animate__pulse" id="index">
+           <img src="../media/logocb.png" class="img-fluid animate__animated animate__pulse" id="index">
         </div>
     </header>
-    <nav class="navbar navbar-expand-md bg-warning">
+    <!--Barra de navegación del Header-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-warning" aria-label="Fourth navbar example">
         <div class="container-fluid">
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./novedades.html">Novedades</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Prendas</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown04">
-                            <li><a class="dropdown-item" href="./tops.html">Tops</a></li>
-                            <li><a class="dropdown-item" href="./bottoms.html">Bottoms</a></li>
-                            <li><a class="dropdown-item" href="./vestidos.html">Vestidos</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="./prendas.html">Ver todo</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-                <nav class="navbar navbar-light bg-warning">
-                    <div class="container-fluid">
-                      <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success shadow-none" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                          </svg></button>
-                      </form>
-                    </div>
-                  </nav>
-            </div>
+          <a class="navbar-brand fw-bold" href="#" style="color:black">TOPS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-black text-decoration-none" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-black text-decoration-none" href="./pages/novedades.html">Novedades</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-black text-decoration-none" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Prendas</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                        <li><a class="dropdown-item" href="./tops.html">Tops</a></li>
+                        <li><a class="dropdown-item" href="./bottoms.html">Bottoms</a></li>
+                        <li><a class="dropdown-item" href="./dresses.html">Vestidos</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black text-decoration-none" href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+            <form>
+              <input class="form-control" type="text" placeholder="Buscar" aria-label="Buscar">
+            </form>
+          </div>
         </div>
       </nav>
     
     <main>
         <div class="row">
             <div class="col-md-12 text-center bg-white p-2 container-fluid">
-            <a href="./pages/novedades.html" class="text-black text-decoration-none"><h1>TOPS</h1></a>
+            <h1>TOPS</h1>
             </div>
             <div class="col-md-4 text-center">
                 <figure class="figure">
@@ -100,21 +96,21 @@
     </main>
     <div class="container">
         <footer class="py-4">
-          <div class="row">
+          <div class="row text-center">
             <div class="col-2">
                 <a href="#index" class="text-black text-decoration-none"><h5>Home</h5></a>
             </div>
       
             <div class="col-2">
-                <a href="./pages/novedades.html" class="text-black text-decoration-none"><h5>Novedades</h5></a>
+                <a href="./novedades.html" class="text-black text-decoration-none"><h5>Novedades</h5></a>
             </div>
 
             <div class="col-2">
-                <a href="./pages/prendas.html" class="text-black text-decoration-none"><h5>Prendas</h5></a>
+                <a href="./prendas.html" class="text-black text-decoration-none"><h5>Prendas</h5></a>
             </div>
 
             <div class="col-2">
-                <a href="./pages/contacto.html" class="text-black text-decoration-none"><h5>Contacto</h5></a>
+                <a href="./contacto.html" class="text-black text-decoration-none"><h5>Contacto</h5></a>
             </div>
       
             <div class="col-4">
@@ -137,6 +133,6 @@
       </div>
 
       
-
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
